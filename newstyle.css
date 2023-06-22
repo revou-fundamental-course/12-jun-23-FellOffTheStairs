@@ -2,16 +2,21 @@ html{
     font-family:Arial, Helvetica, sans-serif;
 }
 header {
-    background-color:black;
-    color: white;
+    background: linear-gradient(45deg,#FF0000,#00ccff);
+    color: #FFFFFF;
     text-align:center;
-    padding:10px;
+    padding-bottom:10px;
+    padding-top:10px;
     font-family:Arial, Helvetica, sans-serif;
-    border-radius:8px;
+    width:100%;
+}
+body {
+    margin:0px;
+    padding:0px;
 }
 button {
-    background-color:darkslategray;
-    color:white;
+    background-color:#FFFFFF;
+    color:#000000;
     justify-content:center;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -19,30 +24,131 @@ button {
     padding-right: 10px;
     border-radius:5px;
     cursor:pointer;
+    align-items:center;
 }
 button:hover{
-    background-color:black;
+    background-color:#d9d9d9;
 }
 button:active{
-    transform: translateY(1px);
+    transform: translateY(2px);
+    background-color:#000000;
+    color:#FFFFFF;
 }
-textarea {
-    color:gray;
+#ctof{
+    margin-left:5px;
+    margin-right:5px;
+}
+#ftoc{
+    color:#FFFFFF;
+    background-color:#000000;
+}
+.carakerjaf{
+    display:inline-block
+}
+#ckctof{
+    display:inline-block
+}
+#ctofformula{
+    display:inline-block
+}
+#ftocformula{
+    display:inline-block
+}
+#cinf1{
+    display:inline-block
+}
+
+#cinf2{
+    display:inline-block
+}
+
+#finf{
+    display:inline-block
+}
+#cinc{
+    display:inline-block
+}
+#cunit{
+    display:inline-block
+}
+
+#funit{
+    display:inline-block
+}
+
+input {
+    color:#000000;
+    border-color:#808080;
     font-family:Arial, Helvetica, sans-serif;
-    width:100%;
     border-radius:8px;
-    font-size:18px;
+    font-size:12px;
     padding-top:10px;
     padding-bottom:10px;
+    width:99%;
+    height:10px;
 }
-textarea:focus {
-    border: solid blue;
+input:hover {
+    border: solid #000000;
 }
-textarea:hover {
-    border: solid black;
+input:focus {
+    border: solid #000000;
 }
 .InputButtonSection{
     display:flex;
     flex-direction:row;
-    align-self:center;
+    justify-content:center;
+    margin-top:15px;
+
+}
+.instruction{
+    text-align:center;
+    font-size:25px;
+}
+p {
+    margin-left:5px;
+}
+#inputfahrenheit:hover{
+    border: solid #FFFFFF;
+}
+#inputfahrenheit:focus{
+    border: solid #FFFFFF;
+}
+.fahrenheitinputsection{
+    margin-left:5px;
+    margin-top:15px;
+}
+#fahrenheitreset{
+    border: solid #FFFFFF;
+}
+.swapbuttons{
+    flex-direction:row;
+    display:inline-block;
+    justify-content:center;
+}
+#celsiusswap{
+    width:49.8%;
+    display:flex inline-block;
+    flex-direction:row;
+    border-radius:0px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-right:0px;
+    padding-left:0px;
+}
+#fahrenheitswap{
+    width:49.8%;
+    display:flex inline-block;
+    flex-direction:row;
+    border-radius:0px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-right:0px;
+    padding-left:0px;
+    color:#FFFFFF;
+    background-color:#000000;
+    justify-content:right;
+}
+.footer{
+    font-family:monospace;
+    text-align:center;
 }

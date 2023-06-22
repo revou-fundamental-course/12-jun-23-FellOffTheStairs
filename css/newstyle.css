@@ -2,8 +2,8 @@ html{
     font-family:Arial, Helvetica, sans-serif;
 }
 header {
-    background-color:black;
-    color: white;
+    background-color:#000000;
+    color: #FFFFFF;
     text-align:center;
     padding:10px;
     font-family:Arial, Helvetica, sans-serif;
@@ -11,7 +11,7 @@ header {
 }
 button {
     background-color:darkslategray;
-    color:white;
+    color:#FFFFFF;
     justify-content:center;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -21,7 +21,7 @@ button {
     cursor:pointer;
 }
 button:hover{
-    background-color:black;
+    background-color:#000000;
 }
 button:active{
     transform: translateY(1px);
@@ -39,7 +39,7 @@ textarea:focus {
     border: solid blue;
 }
 textarea:hover {
-    border: solid black;
+    border: solid #000000;
 }
 .InputButtonSection{
     display:flex;

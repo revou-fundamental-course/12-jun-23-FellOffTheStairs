@@ -2,8 +2,8 @@ html{
     font-family:Arial, Helvetica, sans-serif;
 }
 header {
-    background: linear-gradient(45deg,red,#00ccff);
-    color: white;
+    background: linear-gradient(45deg,#FF0000,#00ccff);
+    color: #FFFFFF;
     text-align:center;
     padding-bottom:10px;
     padding-top:10px;
@@ -15,8 +15,8 @@ body {
     padding:0px;
 }
 button {
-    background-color:white;
-    color:black;
+    background-color:#FFFFFF;
+    color:#000000;
     justify-content:center;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -31,16 +31,16 @@ button:hover{
 }
 button:active{
     transform: translateY(2px);
-    background-color:black;
-    color:white;
+    background-color:#000000;
+    color:#FFFFFF;
 }
 #ctof{
     margin-left:5px;
     margin-right:5px;
 }
 #ftoc{
-    color:white;
-    background-color:black;
+    color:#FFFFFF;
+    background-color:#000000;
 }
 .carakerjaf{
     display:inline-block
@@ -77,8 +77,8 @@ button:active{
 }
 
 input {
-    color:black;
-    border-color:gray;
+    color:#000000;
+    border-color:#808080;
     font-family:Arial, Helvetica, sans-serif;
     border-radius:8px;
     font-size:12px;
@@ -88,10 +88,10 @@ input {
     height:10px;
 }
 input:hover {
-    border: solid black;
+    border: solid #000000;
 }
 input:focus {
-    border: solid black;
+    border: solid #000000;
 }
 .InputButtonSection{
     display:flex;
@@ -108,17 +108,17 @@ p {
     margin-left:5px;
 }
 #inputfahrenheit:hover{
-    border: solid white;
+    border: solid #FFFFFF;
 }
 #inputfahrenheit:focus{
-    border: solid white;
+    border: solid #FFFFFF;
 }
 .fahrenheitinputsection{
     margin-left:5px;
     margin-top:15px;
 }
 #fahrenheitreset{
-    border: solid white;
+    border: solid #FFFFFF;
 }
 .swapbuttons{
     flex-direction:row;
@@ -144,8 +144,8 @@ p {
     padding-bottom:0px;
     padding-right:0px;
     padding-left:0px;
-    color:white;
-    background-color:black;
+    color:#FFFFFF;
+    background-color:#000000;
     justify-content:right;
 }
 .footer{

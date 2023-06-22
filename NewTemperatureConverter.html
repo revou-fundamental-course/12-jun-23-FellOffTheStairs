@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+    <html>
+        <head>
+            <link rel="stylesheet" href="newstyle.css">
+        </head>
+            <title>
+                Temperature Converter
+            </title>
+        </head>
+        <body>
+            <header>
+                <h1>Temperature Converter</h1>
+            </header>
+            <div class="swapbutton">
+                <button id="celsiusswap" onClick="showcelsius()">Celsius</button>
+                <button id="fahrenheitswap" onClick="showfahrenheit()">Fahrenheit</button>
+            </div>
+            <h1 class="instruction">Please Pick the Temperature needed</h1>
+            <div id="ctof">
+                <h2 id="title">
+                    <b>Celsius:</b>
+                </h2>
+                <input id="inputcelsius" type="number" placeholder="Enter the temperature in celsius" oninput="ctofconvert(this.value)">
+                </input>
+                </br></br>
+                <button id="celciusreset" onClick="celsiusclear()">Reset</button>
+            </br>
+                <h2>Fahrenheit: </h2>
+                    <span id="fahrenheitdisplay"></span>
+        </br>
+                <h2 id="ckctof">Celsius to Fahrenheit Calculation Mehtod:</h2>
+            </br>
+                <div class="carakerjaf">
+                    <span id="ckf"></span>
+                </div>
+            </div>
+            <div id="ftoc">
+                <div class="fahrenheitinputsection">
+                    <h2 id="title">
+                        <b>Fahrenheit:</b>
+                    </h2>
+                    <input id="inputfahrenheit" type="number" placeholder="Enter the temperature in fahrenheit" oninput="ftocconvert(this.value)">
+                    </input>
+                    </br></br>
+                    <button id="fahrenheitreset" onClick="fahrenheitclear()">Reset</button>
+                </br>
+                    <h2>Celsius: </h2>
+                        <span id="celsiusdisplay"></span>
+                </br>
+                    <h2 id="ckctof">Fahrenheit to Celsius Calculation Method:</h2>
+                </br>
+                    <div class="carakerjac">
+                        <span id="ckc"></span>
+                    </br></br>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <p>Made By Felix :D</p>
+            </div>
+        </br>
+        </body>
+        <script src="temperatureconverter.js"></script>
+    </html>

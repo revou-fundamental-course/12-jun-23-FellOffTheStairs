@@ -1,0 +1,154 @@
+html{
+    font-family:Arial, Helvetica, sans-serif;
+}
+header {
+    background: linear-gradient(45deg,red,#00ccff);
+    color: white;
+    text-align:center;
+    padding-bottom:10px;
+    padding-top:10px;
+    font-family:Arial, Helvetica, sans-serif;
+    width:100%;
+}
+body {
+    margin:0px;
+    padding:0px;
+}
+button {
+    background-color:white;
+    color:black;
+    justify-content:center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius:5px;
+    cursor:pointer;
+    align-items:center;
+}
+button:hover{
+    background-color:#d9d9d9;
+}
+button:active{
+    transform: translateY(2px);
+    background-color:black;
+    color:white;
+}
+#ctof{
+    margin-left:5px;
+    margin-right:5px;
+}
+#ftoc{
+    color:white;
+    background-color:black;
+}
+.carakerjaf{
+    display:inline-block
+}
+#ckctof{
+    display:inline-block
+}
+#ctofformula{
+    display:inline-block
+}
+#ftocformula{
+    display:inline-block
+}
+#cinf1{
+    display:inline-block
+}
+
+#cinf2{
+    display:inline-block
+}
+
+#finf{
+    display:inline-block
+}
+#cinc{
+    display:inline-block
+}
+#cunit{
+    display:inline-block
+}
+
+#funit{
+    display:inline-block
+}
+
+input {
+    color:black;
+    border-color:gray;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius:8px;
+    font-size:12px;
+    padding-top:10px;
+    padding-bottom:10px;
+    width:99%;
+    height:10px;
+}
+input:hover {
+    border: solid black;
+}
+input:focus {
+    border: solid black;
+}
+.InputButtonSection{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin-top:15px;
+
+}
+.instruction{
+    text-align:center;
+    font-size:25px;
+}
+p {
+    margin-left:5px;
+}
+#inputfahrenheit:hover{
+    border: solid white;
+}
+#inputfahrenheit:focus{
+    border: solid white;
+}
+.fahrenheitinputsection{
+    margin-left:5px;
+    margin-top:15px;
+}
+#fahrenheitreset{
+    border: solid white;
+}
+.swapbuttons{
+    flex-direction:row;
+    display:inline-block;
+    justify-content:center;
+}
+#celsiusswap{
+    width:49.8%;
+    display:flex inline-block;
+    flex-direction:row;
+    border-radius:0px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-right:0px;
+    padding-left:0px;
+}
+#fahrenheitswap{
+    width:49.8%;
+    display:flex inline-block;
+    flex-direction:row;
+    border-radius:0px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-right:0px;
+    padding-left:0px;
+    color:white;
+    background-color:black;
+    justify-content:right;
+}
+.footer{
+    font-family:monospace;
+    text-align:center;
+}

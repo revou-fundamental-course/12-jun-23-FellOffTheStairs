@@ -1,0 +1,48 @@
+html{
+    font-family:Arial, Helvetica, sans-serif;
+}
+header {
+    background-color:black;
+    color: white;
+    text-align:center;
+    padding:10px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius:8px;
+}
+button {
+    background-color:darkslategray;
+    color:white;
+    justify-content:center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius:5px;
+    cursor:pointer;
+}
+button:hover{
+    background-color:black;
+}
+button:active{
+    transform: translateY(1px);
+}
+textarea {
+    color:gray;
+    font-family:Arial, Helvetica, sans-serif;
+    width:100%;
+    border-radius:8px;
+    font-size:18px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+textarea:focus {
+    border: solid blue;
+}
+textarea:hover {
+    border: solid black;
+}
+.InputButtonSection{
+    display:flex;
+    flex-direction:row;
+    align-self:center;
+}
